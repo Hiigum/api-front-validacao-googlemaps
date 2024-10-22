@@ -23,9 +23,9 @@ Este projeto é uma aplicação web desenvolvida com **FastAPI** e **JavaScript*
 
 ---
 
-## 📸 Verifique na Vercel
+## 👓 Verifique na Vercel
 
-![Home](https://api-front-validacao-googlemaps.vercel.app/)
+- [Vercel](https://api-front-validacao-googlemaps.vercel.app/)
 
 ---
 
