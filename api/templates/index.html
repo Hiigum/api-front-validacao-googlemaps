@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Chave API</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validação de Chave API do Google Maps</h1>
+        <form id="apiForm" action="/verificar" method="post">
+            <label for="chaveApi">Insira sua chave API:</label>
+            <input type="text" id="chave_api" name="chave_api" required>
+            <button type="submit">Validar</button>
+        </form>
+        <div id="resultado" class="hidden"></div>
+    </div>
+    
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
